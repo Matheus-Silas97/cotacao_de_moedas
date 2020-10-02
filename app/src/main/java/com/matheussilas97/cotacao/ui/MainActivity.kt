@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
 
             if (data != null) {
                 //Dólar Comercial
-                name_usd.text = data.usd.name
+                name_usd.text = data.usd.name+ " (${data.usd.code})"
                 high_usd.text = maximo + data.usd.high
                 low_usd.text = minimo + data.usd.low
                 ask_usd.text = venda + data.usd.ask
@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity() {
                 pct_change_usd.text = pctVariacao + data.usd.pctChange + "%"
 
                 //Dólar Turismo
-                name_usdt.text = data.usdt.name
+                name_usdt.text = data.usdt.name+ " (${data.usdt.code})"
                 high_usdt.text = maximo + data.usdt.high
                 low_usdt.text = minimo + data.usdt.low
                 ask_usdt.text = venda + data.usdt.ask
@@ -50,7 +50,7 @@ class MainActivity : AppCompatActivity() {
                 pct_change_usdt.text = pctVariacao + data.usdt.pctChange + "%"
 
                 //Dólar Canadense
-                name_cad.text = data.cad.name
+                name_cad.text = data.cad.name+ " (${data.cad.code})"
                 high_cad.text = maximo + data.cad.high
                 low_cad.text = minimo + data.cad.low
                 ask_cad.text = venda + data.cad.ask
@@ -59,7 +59,7 @@ class MainActivity : AppCompatActivity() {
                 pct_change_cad.text = pctVariacao + data.cad.pctChange + "%"
 
                 //Dólar Australiano
-                name_aud.text = data.aud.name
+                name_aud.text = data.aud.name+ " (${data.aud.code})"
                 high_aud.text = maximo + data.aud.high
                 low_aud.text = minimo + data.aud.low
                 ask_aud.text = venda + data.aud.ask
@@ -68,7 +68,7 @@ class MainActivity : AppCompatActivity() {
                 pct_change_aud.text = pctVariacao + data.aud.pctChange + "%"
 
                 //Euro
-                name_eur.text = data.eur.name
+                name_eur.text = data.eur.name+ " (${data.eur.code})"
                 high_eur.text = maximo + data.eur.high
                 low_eur.text = minimo + data.eur.low
                 ask_eur.text = venda + data.eur.ask
@@ -77,7 +77,7 @@ class MainActivity : AppCompatActivity() {
                 pct_change_eur.text = pctVariacao + data.eur.pctChange + "%"
 
                 //Libra Esterlina
-                name_gbp.text = data.gbp.name
+                name_gbp.text = data.gbp.name+ " (${data.gbp.code})"
                 high_gbp.text = maximo + data.gbp.high
                 low_gbp.text = minimo + data.gbp.low
                 ask_gbp.text = venda + data.gbp.ask
@@ -86,7 +86,7 @@ class MainActivity : AppCompatActivity() {
                 pct_change_gbp.text = pctVariacao + data.gbp.pctChange + "%"
 
                 //Peso Argentino
-                name_ars.text = data.ars.name
+                name_ars.text = data.ars.name+ " (${data.ars.code})"
                 high_ars.text = maximo + data.ars.high
                 low_ars.text = minimo + data.ars.low
                 ask_ars.text = venda + data.ars.ask
@@ -95,7 +95,7 @@ class MainActivity : AppCompatActivity() {
                 pct_change_ars.text = pctVariacao + data.ars.pctChange + "%"
 
                 //Iene Japonês
-                name_jpy.text = data.jpy.name
+                name_jpy.text = data.jpy.name+ " (${data.jpy.code})"
                 high_jpy.text = maximo + data.jpy.high
                 low_jpy.text = minimo + data.jpy.low
                 ask_jpy.text = venda + data.jpy.ask
@@ -104,7 +104,7 @@ class MainActivity : AppCompatActivity() {
                 pct_change_jpy.text = pctVariacao + data.jpy.pctChange + "%"
 
                 //Franco Suíço
-                name_chf.text = data.chf.name
+                name_chf.text = data.chf.name+ " (${data.chf.code})"
                 high_chf.text = maximo + data.chf.high
                 low_chf.text = minimo + data.chf.low
                 ask_chf.text = venda + data.chf.ask
@@ -113,7 +113,7 @@ class MainActivity : AppCompatActivity() {
                 pct_change_chf.text = pctVariacao + data.chf.pctChange + "%"
 
                 //Yuan Chinês
-                name_cny.text = data.cny.name
+                name_cny.text = data.cny.name+ " (${data.cny.code})"
                 high_cny.text = maximo + data.cny.high
                 low_cny.text = minimo + data.cny.low
                 ask_cny.text = venda + data.cny.ask
@@ -122,7 +122,7 @@ class MainActivity : AppCompatActivity() {
                 pct_change_cny.text = pctVariacao + data.cny.pctChange + "%"
 
                 //Novo Shekel Israelense
-                name_yls.text = data.ils.name
+                name_yls.text = data.ils.name + " (${data.ils.code})"
                 high_yls.text = maximo + data.ils.high
                 low_yls.text = minimo + data.ils.low
                 ask_yls.text = venda + data.ils.ask
@@ -131,7 +131,7 @@ class MainActivity : AppCompatActivity() {
                 pct_change_yls.text = pctVariacao + data.ils.pctChange + "%"
 
                 //Bitcoin
-                name_btc.text = data.btc.name
+                name_btc.text = data.btc.name + " (${data.btc.code})"
                 high_btc.text = maximo + data.btc.high
                 low_btc.text = minimo + data.btc.low
                 ask_btc.text = venda + data.btc.ask
@@ -140,7 +140,7 @@ class MainActivity : AppCompatActivity() {
                 pct_change_btc.text = pctVariacao + data.btc.pctChange + "%"
 
                 //Litecoin
-                name_ltc.text = data.ltc.name
+                name_ltc.text = data.ltc.name+ " (${data.ltc.code})"
                 high_ltc.text = maximo + data.ltc.high
                 low_ltc.text = minimo + data.ltc.low
                 ask_ltc.text = venda + data.ltc.ask
@@ -149,7 +149,7 @@ class MainActivity : AppCompatActivity() {
                 pct_change_ltc.text = pctVariacao + data.ltc.pctChange + "%"
 
                 //Ethereum
-                name_eth.text = data.eth.name
+                name_eth.text = data.eth.name+ " (${data.eth.code})"
                 high_eth.text = maximo + data.eth.high
                 low_eth.text = minimo + data.eth.low
                 ask_eth.text = venda + data.eth.ask
@@ -158,7 +158,7 @@ class MainActivity : AppCompatActivity() {
                 pct_change_eth.text = pctVariacao + data.eth.pctChange + "%"
 
                 ///Ripple
-                name_xrp.text = data.xrp.name + "(${data.xrp.code})"
+                name_xrp.text = data.xrp.name + " (${data.xrp.code})"
                 high_xrp.text = maximo + data.xrp.high
                 low_xrp.text = minimo + data.xrp.low
                 ask_xrp.text = venda + data.xrp.ask
