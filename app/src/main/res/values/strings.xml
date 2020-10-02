@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Cotação de Moedas</string>
+    <string name="error_conection">Sem conexão com o servidor</string>
+    <string name="maximo">Máximo: R$</string>
+    <string name="minimo">Mínimo: R$</string>
+    <string name="variacao">Variação: </string>
+    <string name="pct_var">Porcentagem de Variação: </string>
+    <string name="compra">Compra: R$</string>
+    <string name="venda">Venda: R$</string>
+    <string name="criptomoedas">Criptomoedas</string>
+    <string name="moedas">Moedas</string>
+</resources>
